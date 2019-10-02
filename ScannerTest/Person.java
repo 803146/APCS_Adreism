@@ -1,3 +1,5 @@
+package ScannerTest;
+
 
 /**
  * Write a description of class Person here.
@@ -15,7 +17,9 @@ public class Person
      */
     public Person(String fullName)
     {
-       String fName,mName,lName;
+       String fName; String mName; String lName;
+
+    
     }
 
     /**
@@ -24,7 +28,7 @@ public class Person
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public String parseName(String fullName)
+    public String parseName(String fullName,String lName,String Name,String fName)
     {
         int test;
         

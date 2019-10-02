@@ -1,3 +1,5 @@
+package ScannerTest;
+
 
 /**
  * Write a description of class Runner here.
@@ -13,7 +15,7 @@ public class Runner
     /**
      * Constructor for objects of class Runner
      */
-    public Runner()
+    public Runner(String fullName)
     {
         // initialise instance variables
         x = 0;
@@ -25,8 +27,10 @@ public class Runner
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public String scanner(String fullName)
-    {
-        return fullName;
+    public static void main(){
+    
+    Person parseName = new Person();
+    
+    
     }
 }
