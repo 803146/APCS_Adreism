@@ -1,6 +1,5 @@
 package ScannerTest;
 
-
 /**
  * Write a description of class Person here.
  *
@@ -9,17 +8,14 @@ package ScannerTest;
  */
 public class Person
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Person
-     */
-    public Person(String fullName)
+    String fName;
+    String mName; 
+    String lName;
+    public Person(String name)
     {
-       String fName; String mName; String lName;
-
-    
+        fName = "";
+        mName = "";
+        lName = "";
     }
 
     /**
@@ -28,12 +24,34 @@ public class Person
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public String parseName(String fullName,String lName,String Name,String fName)
+    public void parseName(String name)
     {
-        int test;
-        
-        int Si = fullName.indexOf(", ");
-        lName = fullName.substring(0,Si);
-        return fullName;
+        int si = name.indexOf(" ");
+        int lsi = name.lastIndexOf(" ");
+
+        if(name.indexOf(" ") != -1){//Case one or two
+            int comma = name.indexOf(",");
+            if (si != lsi){ //Case 1
+                lName = name.substring(0,comma);
+                fName = name.substring(si + 1,lsi);
+                lName = name.substring(lsi+1);
+            } else{ //case 2
+                lName = name.substring(0,comma);
+                fName = name.substring(si + 1,lsi);
+                mName = "";
+            }
+
+        }
+        else{//case 3 or 4
+            if (si != lsi){
+                fName = name.substring(0,si);
+                mName = name.substring(si + 1,lsi);
+                lName = name.substring(lsi + 1);
+            } else{ //Case 4
+                fName = name.substring(0,si);
+                lName = name.substring(si + 1,lsi);
+                lName = "";
+            }
+        }
     }
 }

@@ -2,35 +2,30 @@ package ScannerTest;
 
 
 /**
- * Write a description of class Runner here.
+ * Parse Name
  *
- * @author (your name)
- * @version (a version number or a date)
+ * David Reisman
+ * @version (924)
  */
-public class Runner
-{
-    // instance variables - replace the example below with your own
-    private int x;
 
-    /**
-     * Constructor for objects of class Runner
-     */
-    public Runner(String fullName)
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+import java.util.Scanner;
+public class Runner{
+    
+    
     public static void main(){
-    
-    Person parseName = new Person();
-    
-    
+        Scanner kb = new Scanner(System.in);
+        String inputStr = "";
+        //  if(str1 == str2)
+        while(!inputStr.equals("quit")){
+            System.out.println("Enter a name or type \"quit\" to quit");
+            inputStr = kb.nextLine();
+            System.out.println(inputStr);
+        }
+        Person p = new Person();
+        Person.parseName(String str);
+        //Having trouble getting runner to work
+        
+        
+        
     }
 }
