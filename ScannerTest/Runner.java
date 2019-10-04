@@ -20,9 +20,11 @@ public class Runner{
             System.out.println("Enter a name or type \"quit\" to quit");
             inputStr = kb.nextLine();
             System.out.println(inputStr);
+            Person p = new Person(inputStr);
+        p.parseName(inputStr);
+        
         }
-        Person p = new Person();
-        Person.parseName(String str);
+        
         //Having trouble getting runner to work
         
         

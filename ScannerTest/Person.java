@@ -29,7 +29,7 @@ public class Person
         int si = name.indexOf(" ");
         int lsi = name.lastIndexOf(" ");
 
-        if(name.indexOf(" ") != -1){//Case one or two
+        if(name.indexOf(",") != -1){//Case one or two
             int comma = name.indexOf(",");
             if (si != lsi){ //Case 1
                 lName = name.substring(0,comma);
@@ -37,7 +37,7 @@ public class Person
                 lName = name.substring(lsi+1);
             } else{ //case 2
                 lName = name.substring(0,comma);
-                fName = name.substring(si + 1,lsi);
+                fName = name.substring(si + 1);
                 mName = "";
             }
 
@@ -49,9 +49,11 @@ public class Person
                 lName = name.substring(lsi + 1);
             } else{ //Case 4
                 fName = name.substring(0,si);
-                lName = name.substring(si + 1,lsi);
-                lName = "";
+                lName = name.substring(si + 1);
+                mName = "";
             }
         }
+        System.out.println(fName + " " + mName + " " + lName);
     }
+    
 }
