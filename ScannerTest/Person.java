@@ -24,7 +24,7 @@ public class Person
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
-    public void parseName(String name)
+    public String parseName(String name)
     {
         int si = name.indexOf(" ");
         int lsi = name.lastIndexOf(" ");
@@ -32,9 +32,9 @@ public class Person
         if(name.indexOf(",") != -1){//Case one or two
             int comma = name.indexOf(",");
             if (si != lsi){ //Case 1
-                lName = name.substring(0,comma);
+                lName = name.substring(0,si -1);
                 fName = name.substring(si + 1,lsi);
-                lName = name.substring(lsi+1);
+                mName = name.substring(lsi+1);
             } else{ //case 2
                 lName = name.substring(0,comma);
                 fName = name.substring(si + 1);
@@ -54,6 +54,8 @@ public class Person
             }
         }
         System.out.println(fName + " " + mName + " " + lName);
+        String lsName = (fName + " " + mName + " " + lName);
+        return lsName;
     }
     
 }
