@@ -1,7 +1,5 @@
 #BlueJ class context
 comment0.target=Runner
-comment1.params=p\ n
-comment1.target=void\ extendArray(Person[],\ int)
-comment2.params=
-comment2.target=void\ main()
-numComments=3
+comment1.params=
+comment1.target=void\ main()
+numComments=2
