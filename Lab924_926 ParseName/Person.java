@@ -1,4 +1,3 @@
-package ScannerTest;
 
 /**
  * Write a description of class Person here.
@@ -8,9 +7,10 @@ package ScannerTest;
  */
 public class Person
 {
-    String fName;
-    String mName; 
-    String lName;
+    private String fName;
+    private String mName; 
+    private String lName;
+    public String lsName;
     public Person(String name)
     {
         fName = "";
@@ -53,9 +53,10 @@ public class Person
                 mName = "";
             }
         }
-        System.out.println(fName + " " + mName + " " + lName);
-        String lsName = (fName + " " + mName + " " + lName);
+
+        lsName = (fName + " " + mName + " " + lName);
+        System.out.println(lsName);
         return lsName;
     }
-    
+
 }

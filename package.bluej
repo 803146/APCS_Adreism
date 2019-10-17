@@ -3,6 +3,7 @@ editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
+<<<<<<< HEAD
 objectbench.height=92
 objectbench.width=760
 package.divider.horizontal=0.6
@@ -11,6 +12,16 @@ package.editor.height=394
 package.editor.width=670
 package.editor.x=146
 package.editor.y=347
+=======
+objectbench.height=101
+objectbench.width=776
+package.divider.horizontal=0.6
+package.divider.vertical=0.8007380073800738
+package.editor.height=427
+package.editor.width=674
+package.editor.x=254
+package.editor.y=174
+>>>>>>> 9d04fa071778f1253d2e56fe0edffe4e3fb3c72c
 package.frame.height=600
 package.frame.width=800
 package.numDependencies=0
@@ -24,6 +35,7 @@ readme.width=47
 readme.x=10
 readme.y=10
 target1.height=62
+<<<<<<< HEAD
 target1.name=Lab1015MeanMedianMode
 target1.type=PackageTarget
 target1.width=170
@@ -35,6 +47,19 @@ target2.type=PackageTarget
 target2.width=140
 target2.x=10
 target2.y=160
+=======
+target1.name=lab23nestedloopprac
+target1.type=PackageTarget
+target1.width=150
+target1.x=10
+target1.y=160
+target2.height=62
+target2.name=Exam_1_Questions
+target2.type=PackageTarget
+target2.width=140
+target2.x=80
+target2.y=250
+>>>>>>> 9d04fa071778f1253d2e56fe0edffe4e3fb3c72c
 target3.height=50
 target3.name=Examrev
 target3.showInterface=false
@@ -45,6 +70,12 @@ target3.y=10
 target4.height=62
 target4.name=MeanMedianMode
 target4.type=PackageTarget
+<<<<<<< HEAD
 target4.width=130
 target4.x=10
 target4.y=240
+=======
+target4.width=140
+target4.x=10
+target4.y=80
+>>>>>>> 9d04fa071778f1253d2e56fe0edffe4e3fb3c72c
