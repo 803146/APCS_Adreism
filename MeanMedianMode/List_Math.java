@@ -2,13 +2,15 @@ package MeanMedianMode;
 
 
 /**
- * Write a description of class List_Math here.
+ * Mean Median (mode)
  *
- * @author (your name)
- * @version (a version number or a date)
+ * David Reisman
+ * 1016
  */
+import java.util.ArrayList;
 public class List_Math
 {
+        
     // instance variables - replace the example below with your own
     private int x;
 
@@ -21,20 +23,17 @@ public class List_Math
 
         
     }
+public void loadArrary(){
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public static void main(String[] args){
-
-        int[] nums = new int[5];
-        for(int i = 5; i == 0; i--){
-        Math.random() = L;
-        L = L * 10;
-        nums[i] = L;
+    int[] nums = new int[100]; 
+    for(int i = 90; i != 0; i--){
     }
+    ArrayList arrayList = new ArrayList();
+    arrayList.remove(nums);
+    for(int e = 0; e ==9;e--){
+        int r = ((int)Math.random()*10);
+       nums[e] = r;
+       System.out.println(nums[e]);
+}
 }
 }
