@@ -1,3 +1,5 @@
+package MeanMedianMode;
+
 
 /**
  * Write a description of class List_Math here.
