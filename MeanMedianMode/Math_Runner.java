@@ -7,12 +7,14 @@ package MeanMedianMode;
  * @author (your name)
  * @version (a version number or a date)
  */
-import java.util.ArrayList;
-import java.lang.Math;
+import java.util.*;
+import java.lang.*;
 public class Math_Runner
 {
+    
+    
     public static void main(){
-List_Math listmath = new List_Math();
-listmath.loadArrary();
+MMM listMath = new MMM(ArrayList<Integer>);
+listMath.loadArray();
 }
 }
