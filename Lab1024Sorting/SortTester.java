@@ -18,7 +18,7 @@ public class SortTester
     public SortTester(){
     loadNumbers(10);
     //bubbleSort();
-    insertSort();
+    //insertSort();
     }
 
     /**
@@ -50,19 +50,28 @@ public class SortTester
         }
     }
     }
-System.out.println(numList);
+
 }
 public void insertSort(){
-    for(int c = 0; c !=8; c++){
-    for(int i = 9; i !=0; i--){
-        int a = numList.get(i);
-        int b = numList.get(i-1);
-        if(a>b){
-            numList.set(i,b);
-            numList.set(i - 1, a);
+    for(int c = 1; c <10; c++){
+    for(int i = c; i > 0; i--){
+        int a;
+        if(numList.get(i)<numList.get(i-1)){
+            a = numList.get(i);
+            numList.set(i, numList.get(i-1));
+            numList.set(i -1,a);
+            
 }
 }
 }
 System.out.println(numList);
+}
+public void selectionSort(){
+for(int i = 0; i < numList.size(); i++){
+    int index = i;
+    
+    
+    
+}
 }
 }
