@@ -69,8 +69,15 @@ System.out.println(numList);
 public void selectionSort(){
 for(int i = 0; i < numList.size(); i++){
     int index = i;
+     
+    while(numList.get(i) > numList.get(i + 1)){
+        
+       int temp = numList.get(i + 1);
+       numList.set(i +1,numList.get(i));
+       numList.set(i,temp);
+    }
     
-    
+
     
 }
 }

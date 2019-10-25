@@ -8,13 +8,13 @@ package MeanMedianMode;
  * @version (a version number or a date)
  */
 import java.util.*;
-import java.lang.*;
+import java.lang.*; 
 public class Math_Runner
 {
     
     
-    public static void main(){
-MMM listMath = new MMM(ArrayList<Integer>);
-listMath.loadArray();
+    public static void main(){;
+        MMM m = new MMM();
+
 }
 }
