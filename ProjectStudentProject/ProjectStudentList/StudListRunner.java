@@ -1,5 +1,3 @@
-package StudentList;
-
 
 /**
  * Write a description of class StudListRunner here.
@@ -7,9 +5,10 @@ package StudentList;
  * @author (your name)
  * @version (a version number or a date)
  */
+import java.util.Scanner;
 public class StudListRunner
 {
-   public static void main(){
-       StudList slist = new StudList();
-    }
+    Studlist studlist = new Studlist();
+    Scanner scanner = new Scanner(System.in);
+    String inp = scanner.nextLine();
 }
