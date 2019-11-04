@@ -2,8 +2,10 @@
 comment0.target=StringCheck
 comment1.params=
 comment1.target=StringCheck()
-comment2.params=str\ key
-comment2.target=java.util.ArrayList\ wordChecker(java.lang.String[],\ java.lang.String)
-comment3.params=
-comment3.target=void\ main()
-numComments=4
+comment2.params=str\ i
+comment2.target=java.lang.String[]\ extendArray(java.lang.String[],\ int)
+comment3.params=str\ key
+comment3.target=java.util.ArrayList\ wordChecker(java.lang.String[],\ java.lang.String)
+comment4.params=
+comment4.target=void\ main()
+numComments=5
