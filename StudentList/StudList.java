@@ -9,7 +9,7 @@ package StudentList;
 import java.util.*;
 public class StudList
 {
-    ArrayList<String> studList = new ArrayList<String>();
+    ArrayList<Student> studList = new ArrayList<Student>();
     Scanner scn = new Scanner(System.in);
     String fName;
     String mName;
@@ -59,8 +59,8 @@ public class StudList
         }
         fullName = (fName + " " + mName + " " + lName);
         System.out.println("Enter students GPA");
-        String gpa = scn.nextLine();
-        studList.add(fullName + " " + gpa);
+        gpa = scn.nextDouble();
+        studList.add();
         System.out.println(studList);
     }
 }
