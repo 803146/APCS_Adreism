@@ -10,6 +10,13 @@ package StudentList;
 public class StudListRunner
 {
    public static void main(){
-       StudList slist = new StudList();
+       StudList sList = new StudList();
+       sList.addStudentToList("");
+        /*studList.deleteStudentFromList();
+        editStudentList();
+        clearList();
+        printAll();
+        printStudent();
+        sortStudents();*/
     }
 }

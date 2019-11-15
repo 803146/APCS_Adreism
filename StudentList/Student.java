@@ -15,9 +15,11 @@ public class Student
     {
 
     }
-public void setName(String fullName)
+public void setName(String fullName,String f, String m, String l)
     {
-        System.out.println(fullName);
-        studList.add(fullName);
+        fullName = f + m + l;
     }
+public void setGpa(double g){
+    
+}
 }

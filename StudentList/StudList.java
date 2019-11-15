@@ -20,13 +20,7 @@ public class StudList
 
     public StudList()
     {
-        addStudentToList("");
-        /*studList.deleteStudentFromList();
-        editStudentList();
-        clearList();
-        printAll();
-        printStudent();
-        sortStudents();*/
+        
     }
 
     public void addStudentToList(String fullName){
@@ -58,10 +52,9 @@ public class StudList
                 mName = "";
             }
         }
-        fullName = (fName + " " + mName + " " + lName);
-        student.setName(fullName);
+        student.setName(fullName,fName,mName,lName);
         System.out.println("Enter students GPA");
-        gpa = scn.nextDouble();
-        System.out.println(studList);
+        student.setGpa(gpa);
+        studList.add(student);
     }
 }
