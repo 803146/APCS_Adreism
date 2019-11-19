@@ -10,16 +10,32 @@ package StudentList;
 import java.util.*;
 public class Student
 {
-    
+    Scanner scn = new Scanner(System.in);
+    String fullName; double gpa;int stuNum;String fName;String mName;String lName;
+
     public Student()
     {
 
     }
-public void setName(String fullName,String f, String m, String l)
+public String getName()
     {
-        fullName = f + m + l;
+        return fullName;
     }
-public void setGpa(double g){
-    
+public double getGpa(){
+    return gpa;
+}
+public int getStuNum(){
+    return stuNum;
+}
+public String setFirst(){
+    return fName;
+}
+public String setMiddle(){
+
+    return mName;
+}
+public String setLast(){
+  
+    return lName;
 }
 }

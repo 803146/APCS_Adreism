@@ -12,11 +12,8 @@ public class StudList
     public ArrayList<Student> studList = new ArrayList<Student>();
     Student student = new Student();
     Scanner scn = new Scanner(System.in);
-    String fName;
-    String mName;
-    String lName;
-    int stuNumber;
-    double gpa;
+    
+    
 
     public StudList()
     {
@@ -24,6 +21,12 @@ public class StudList
     }
 
     public void addStudentToList(String fullName){
+        student.getStuNum();
+        student.getGpa();
+        student.getName();
+        student.setFirst();
+        student.setMiddle();
+        student.setLast();
         System.out.println("Enter the students name.");
         fullName = scn.nextLine();
         int si = fullName.indexOf(" ");
@@ -52,9 +55,14 @@ public class StudList
                 mName = "";
             }
         }
-        student.setName(fullName,fName,mName,lName);
+        
         System.out.println("Enter students GPA");
-        student.setGpa(gpa);
+        
+        System.out.println("Enter the student number");
+       
         studList.add(student);
+    }
+    public void addStudentToList(){
+    
     }
 }
