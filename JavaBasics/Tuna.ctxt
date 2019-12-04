@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Tuna
+comment1.params=name
+comment1.target=Tuna(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=public\ void\ setName(String\ name){\r\n\ \ \ \ \ \ \ \ girlName\ \=\ name;\ \ \ \r\n}
+comment3.params=
+comment3.target=void\ saying()
+numComments=4
