@@ -189,7 +189,7 @@ public class Basics
         System.out.println(Math.sqrt(9));
         
     }
-    public static void lessontwentysix(){
+    public void lessontwentysix(){
         Random dice = new Random();
         int number;
         for(int counter=1; counter <=10; counter ++){
@@ -197,6 +197,26 @@ public class Basics
             System.out.println(number + " ");
         }
     }
+    public void lessontwentyseven(){
+        int intArray[] = {4,1,5,1,34,5,1,13,12,4};
+        
+        System.out.println(intArray[5]);
 }
-
+public void lessontwentyeight(){
+System.out.println("Index\tValue");
+int intArray[] = {021,1028,01,408,134};
+    
+for(int counter =0; counter<intArray.length; counter++){
+    System.out.println(counter + "\t" +intArray[counter]);
+}
+}
+public static void lessontwentynine(){
+int intArray[] = {124,535,64,13,75,235235};
+int sum = 0;
+for(int counter =0;counter < intArray.length; counter ++){
+    sum += intArray[counter];
+}
+System.out.println("sum of these numbers is " + sum);
+}
+}
 
